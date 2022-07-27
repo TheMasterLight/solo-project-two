@@ -6,7 +6,7 @@
 }
 
 .container {
-  /* border: 1px blue solid; */
+  border: 1px blue solid;
 }
 
 .flex {
@@ -18,7 +18,7 @@
 /* Navigation Styling */
 
 .navigation {
-  border: blue 1px solid;
+  /* border: blue 1px solid; */
   background: #F55A5A;
   color: #fff;
   padding: 20px;

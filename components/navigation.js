@@ -8,7 +8,7 @@ export default function navigation() {
       <div className="little-space">
         <Image src={WorldIcon} />
       </div>
-      <h2>My Travel Journal</h2>
+      <h2>My Player's Travel Journal </h2>
     </nav>
   )
 }
