@@ -1,0 +1,32 @@
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* border: 1px blue solid; */
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navigation Styling */
+
+.navigation {
+  border: blue 1px solid;
+  background: #F55A5A;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  max-height: 70px;
+}
+
+.little-space {
+  padding-right: 1em;
+}
