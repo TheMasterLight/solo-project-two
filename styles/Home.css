@@ -6,7 +6,8 @@
 }
 
 .container {
-  border: 1px blue solid;
+  border-bottom: 1px grey solid;
+  max-width: 470px;
 }
 
 .flex {
@@ -23,10 +24,17 @@
   color: #fff;
   padding: 20px;
   width: 100%;
-  max-width: 400px;
+  max-width: 547px;
   max-height: 70px;
 }
 
 .little-space {
   padding-right: 1em;
+}
+
+.preview {
+  max-width: 125px;
+  max-height: 168px;
+  padding: 20px;
+  object-fit: cover;
 }
