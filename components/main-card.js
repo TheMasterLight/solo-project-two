@@ -1,13 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import IslandFates from "../public/Images/island_fates.jpg"
 import TravelIcon from "../public/Images/Fill 219.svg"
 
-export default function travelCard() {
+export default function travelCard(props) {
   return (
     <div className="container flex">
       <div className="preview">
-        <Image src={IslandFates} alt="a map of the island of the fates" />
+        <Image src={props.map} alt = {props.alt} />
       </div>
       <div>
         <div>
@@ -17,8 +16,8 @@ export default function travelCard() {
           <a src="#">View on Map of Thylea</a>
         </div>
         <div>
-          <h1>Island of the Fates</h1>
-          <p>Description of Party's Events at location</p>
+          <h1>${props.title}</h1>
+          <p>${props.description}</p>
         </div>
       </div>
     </div>
