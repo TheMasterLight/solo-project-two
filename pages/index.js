@@ -1,8 +1,21 @@
 import Head from 'next/head'
 import MainCard from '../components/main-card.js'
 import Navigation from '../components/navigation'
+import data from '../data/data.js'
 
 export default function Home() {
+
+  const cardObject = data.map(item => {
+    return <MainCard 
+      id = {item.id}
+      map = {item.map}
+      title = {item.title}
+      alt = {item.alt}
+      description = {item.description}
+      />
+
+  })
+
   return (
     <div>
       <Head>
@@ -13,7 +26,7 @@ export default function Home() {
 
       <div className="centered">
         <Navigation />
-        <MainCard />
+        {cardObject}
       </div>
       
     </div>

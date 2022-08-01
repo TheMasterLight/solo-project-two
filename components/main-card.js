@@ -6,7 +6,7 @@ export default function travelCard(props) {
   return (
     <div className="container flex">
       <div className="preview">
-        <Image src={props.map} alt = {props.alt} />
+        <Image src={props.map} alt = {props.alt} width={auto} height={auto}/>
       </div>
       <div>
         <div>
@@ -16,8 +16,8 @@ export default function travelCard(props) {
           <a src="#">View on Map of Thylea</a>
         </div>
         <div>
-          <h1>${props.title}</h1>
-          <p>${props.description}</p>
+          <h1>{props.title}</h1>
+          <p>{props.description}</p>
         </div>
       </div>
     </div>
